@@ -1,0 +1,17 @@
+.status{
+    padding: 5px;
+    border-radius: 8px;
+
+    &.Paid{
+        background-color:#DDF2E2;
+        color: #79AC85;
+    }
+    &.Pending{
+         background-color: #FEF2EB;
+         color: #D4A681;
+    }
+    &.Overdue{
+         background-color: #FDE7E7 ;
+         color: #C96E6E;
+    }
+}
